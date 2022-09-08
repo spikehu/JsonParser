@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/C++code/JsonParser2/JObject.h
+string
+-
+map
+-
+vector
+-
+variant
+-
+
+G:/C++code/JsonParser2/Parser.h
+JObject.h
+G:/C++code/JsonParser2/JObject.h
+
+G:/C++code/JsonParser2/main.cpp
+iostream
+-
+fstream
+-
+Parser.h
+G:/C++code/JsonParser2/Parser.h
+
